@@ -40,6 +40,7 @@
     <Compile Include="Configuration\AppConfig.cs" />
     <Compile Include="Data\SqlBulkCopyNoException.cs" />
     <Compile Include="Data\SqlExecutor.cs" />
+    <Compile Include="Extension\SqlDataReaderExtension.cs" />
     <Compile Include="Extension\TypeExtension.cs" />
     <Compile Include="Net\FTPClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
