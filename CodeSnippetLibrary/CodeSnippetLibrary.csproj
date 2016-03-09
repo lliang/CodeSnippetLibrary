@@ -37,10 +37,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\HashAlgorithm.cs" />
     <Compile Include="Configuration\AppConfig.cs" />
     <Compile Include="Data\SqlBulkCopyNoException.cs" />
     <Compile Include="Data\SqlExecutor.cs" />
+    <Compile Include="Extension\ObjectExtension.cs" />
     <Compile Include="Extension\SqlDataReaderExtension.cs" />
+    <Compile Include="Extension\SqlParameterCollectionExtension.cs" />
     <Compile Include="Extension\TypeExtension.cs" />
     <Compile Include="Net\FTPClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
